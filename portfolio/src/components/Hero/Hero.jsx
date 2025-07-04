@@ -1,9 +1,9 @@
-import React from 'react'
-import './Hero.css'
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+import './Hero.css';
 import profile from '../../assets/myPhoto.jpeg';
 
 const Hero = () => {
-  return (
+	return (
 		<div id='home' className='hero'>
 			<img className='profile' src={profile} alt='' />
 			<h1>
@@ -14,11 +14,15 @@ const Hero = () => {
 				4 years of experience as Freelancer
 			</p>
 			<div className='hero-action'>
-				<div className='hero-connect'>Connect with me</div>
+				<div className='hero-connect'>
+					<AnchorLink className='anchor-link' href='#contact'>
+						Connect with me
+					</AnchorLink>
+				</div>
 				<div className='hero-resume'>My resume</div>
 			</div>
 		</div>
 	);
-}
+};
 
-export default Hero
+export default Hero;

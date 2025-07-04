@@ -31,7 +31,7 @@ const Navbar = () => {
 					{menu === 'contact' ? <img src={wave1} alt='' /> : <></>}
 				</li>
 			</ul>
-			<div className='nav-connect'>Connect With Me</div>
+			<div className='nav-connect'><AnchorLink className='anchor-link'  href='#contact' >Connect With Me</AnchorLink></div>
 		</div>
 	);
 };
