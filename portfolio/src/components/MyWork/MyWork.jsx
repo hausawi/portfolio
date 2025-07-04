@@ -10,7 +10,7 @@ const MyWork = () => {
 	return (
 		<div id='work' className='mywork'>
 			<div className='mywork-title'>
-				<h1>My latest work</h1>
+				<h1>latest work</h1>
 				<img src={wave} alt='' />
 			</div>
 			<div className='mywork-container'>
