@@ -13,14 +13,14 @@
 
 .contact-title h1 {
 	padding: 0px 30px;
-	font-size: 50px;
+	font-size: 40px;
 	font-weight: 600;
 }
 .contact-title img {
 	width: 300px;
 	position: absolute;
-	bottom: -20px;
-	right: 60px;
+	bottom: -32px;
+	right: 0px;
 	z-index: -1;
 }
 .contact-section {
@@ -126,7 +126,7 @@
     }
     .contact-title h1{
         padding: 0;
-        font-size: 50px;
+        font-size: 40px;
         font-weight: 600;
     }
     .contact-title img{

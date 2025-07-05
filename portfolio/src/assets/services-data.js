@@ -2,6 +2,7 @@ import Blog from './BlogApp.png'
 import portfolio from './2.png';
 import lms from './3.png';
 import ecom from './4.png';
+import dash from './5.png';
 
 const Services_data = [
 	{
@@ -25,17 +26,20 @@ const Services_data = [
 	{
 		s_no: '04',
 		s_name: 'App design',
-		s_desc: 'web development descriptions ...',
+		s_desc:
+			'Understand client requirements and how they translate in application features. Collaborate with a team of IT professionals to set specifications for new applications. Design creative prototypes according to specifications. Write high quality source code to program complete applications within deadlines. Perform unit and integration testing before launch. Troubleshoot and debug applications. Evaluate existing applications to reprogram, update and add new features...',
 	},
 	{
 		s_no: '05',
-		s_name: 'Digitaal marketing',
-		s_desc: 'web development descriptions ...',
+		s_name: 'Digital marketing',
+		s_desc:
+			"Develop marketing strategies that align with the organization's business goals • Manage and execute campaigns across various digital channels, including email, social media, search engines, and display advertising. Collaborate with cross-functional teams, including creative, content, and web development, to produce engaging content and optimize user experience. Stay up-to-date with emerging digital marketing trends and technologies...",
 	},
 	{
 		s_no: '06',
 		s_name: 'Instructing',
-		s_desc: 'web development descriptions ...',
+		s_desc:
+			'Deliver training sessions to clients on the use of our software solutions. Create training materials and resources to support client learning. Stay current on software updates and changes, and communicate these effectively to clients. Collaborate with the development team to provide feedback and suggestions for improving the software. Build and maintain positive relationships with clients and other stakeholders. Provide ad-hoc training and support to clients as needed...',
 	},
 ];
 
@@ -56,19 +60,20 @@ export const mywork_data = [
 	{
 		w_no: 3,
 		w_name: 'Visit online',
+		w_img: ecom,
+		w_url: 'https://hausawi.github.io/ecommerce-01/',
+	},
+
+	{
+		w_no: 4,
+		w_name: 'Visit online',
 		w_img: lms,
 		w_url: 'https://lms-sudemy.vercel.app/',
 	},
 	{
-		w_no: 4,
-		w_name: 'Visit online',
-		w_img: ecom,
-		w_url: 'https://hausawi.github.io/ecommerce-01/',
-	},
-	{
 		w_no: 5,
 		w_name: 'Visit online',
-		w_img: Blog,
+		w_img: dash,
 		w_url: 'https://lms-sudemy.vercel.app/',
 	},
 	{

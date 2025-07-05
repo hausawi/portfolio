@@ -1,10 +1,10 @@
-import './Footer.css'
+import './Footer.css';
 import person from '../../assets/person.png';
 import logo from '../../assets/logo.png';
 
 const Footer = () => {
-  return (
-		<div  className='footer'>
+	return (
+		<div className='footer'>
 			<div className='footer-top'>
 				<div className='footer-top-left'>
 					<img src={logo} alt='' />
@@ -22,6 +22,17 @@ const Footer = () => {
 				</div>
 			</div>
 			<hr />
+			<div className='social-icons'>
+				<a href='https://www.linkedin.com/in/haider-moubarak-7b184a31b'>
+					<img src='./linked.png' alt='' />
+				</a>
+				<a href='https://youtube.com/@hausawi_dev?si=k3TCl5nle80VO9Wh'>
+					<img src='./tube.png' alt='' />
+				</a>
+				<a href='https://github.com/hausawi'>
+					<img src='./githubjpg.png' alt='' />
+				</a>
+			</div>
 			<div className='footer-bottom'>
 				<p className='footer-bottom-left'>
 					{' '}
@@ -35,6 +46,6 @@ const Footer = () => {
 			</div>
 		</div>
 	);
-}
+};
 
-export default Footer
+export default Footer;

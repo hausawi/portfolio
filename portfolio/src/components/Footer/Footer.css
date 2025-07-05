@@ -73,6 +73,17 @@
 	transform: scale(1.1);
 	transition: 0.3s;
 }
+.social-icons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 120px;
+}
+.social-icons a img{
+	width: 70px;
+	height: 70px;
+	display: flex;
+}
 
 @media (max-width: 768px) {
 	.footer {
@@ -105,4 +116,15 @@
         font-size: 12px;
         padding: 10px;
     }
+	.social-icons{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+	}
+	.social-icons a img{
+		width: 40px;
+		height: 40px;
+		display: flex;
+	}
 }

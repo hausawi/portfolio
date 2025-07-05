@@ -1,6 +1,6 @@
 import './About.css';
 import wave from '../../assets/wave.png';
-import profile from '../../assets/mpic.jpg'
+import profile from '../../assets/mpic.jpg';
 
 const About = () => {
 	return (
@@ -16,39 +16,45 @@ const About = () => {
 				<div className='about-right'>
 					<div className='about-para'>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt
-							magnam illo possimus explicabo esse quo excepturi facere quibusdam
-							accusantium repudiandae?
+							As a MERN Full Stack Developer, I have successfully delivered
+							numerous projects that have significantly improved user experience
+							and streamlined business processes. My expertise lies in
+							developing scalable and efficient web applications, utilizing a
+							wide range of technologies such as React, Tailwindcss, Nodejs,
+							Express, and various frameworks including FastAPI. I have a deep
+							understanding of both front-end and back-end development, allowing
+							me to seamlessly integrate different components and deliver
+							seamless user experiences.
 						</p>
 						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt
-							magnam illo possimus explicabo esse quo excepturi facere quibusdam
-							accusantium repudiandae?
+							I am also well-versed in the latest industry trends and best
+							practices, and I am constantly seeking opportunities to enhance my
+							skills and stay up-to-date with emerging technologies.
 						</p>
 					</div>
 					<div className='about-skills'>
 						<div className='about-skill'>
-							<p>HTML & CSS</p>
+							<p>Tailwindcss</p>
 							<hr style={{ width: '40%' }} />
 						</div>
 						<div className='about-skill'>
-							<p>Tailwincss</p>
+							<p>MERN Stack</p>
 							<hr style={{ width: '60%' }} />
 						</div>
 						<div className='about-skill'>
-							<p>React Js</p>
-							<hr style={{ width: '70%' }} />
+							<p>FARM Stack</p>
+							<hr style={{ width: '50%' }} />
 						</div>
 						<div className='about-skill'>
-							<p>JavaScript</p>
+							<p>CI/CD Pipeline</p>
 							<hr style={{ width: '60%' }} />
 						</div>{' '}
 						<div className='about-skill'>
-							<p>Python</p>
-							<hr style={{ width: '80%' }} />
+							<p>DBMS</p>
+							<hr style={{ width: '30%' }} />
 						</div>
 						<div className='about-skill'>
-							<p>Node Js</p>
+							<p>Linux</p>
 							<hr style={{ width: '70%' }} />
 						</div>
 					</div>
@@ -58,13 +64,15 @@ const About = () => {
 				<div className='about-achievement'>
 					<h1>3+</h1>
 					<p>YEARS OF EXPERIENCE</p>
-				</div><hr/>
+				</div>
+				<hr />
 				<div className='about-achievement'>
 					<h1>20+</h1>
 					<p>PROJECTS COMPLETED</p>
-				</div><hr/>
+				</div>
+				<hr />
 				<div className='about-achievement'>
-					<h1>10+</h1>
+					<h1>18+</h1>
 					<p>HAPPY CLIENTS</p>
 				</div>
 			</div>
