@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    margin: 40px 170px;
 }
 
 .about-title{
@@ -12,8 +12,8 @@
 }
 
 .about-title h1{
-    padding: 0px 30px;
-    font-size: 80px;
+    padding: 0px 20px;
+    font-size: 60px;
     font-weight: 600;
 }
 .about-title img{
@@ -25,20 +25,20 @@
 }
 .about-sections{
     display: flex;
-    gap: 80px;
+    gap: 50px;
 }
 
 .about-right{
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 50px;
 }
 
 .about-para{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 300;
 }
 
@@ -125,7 +125,7 @@
 @media(max-width:768px){
     .about{
         gap: 80px;
-        margin: 50px 70px;
+        margin: 50px 30px;
         align-items: start;
     }
     .about-title h1{
@@ -143,7 +143,7 @@
         display: none;
     }
     .about-para{
-        font-size: 14px;
+        font-size: 18px;
         line-height: 22px;
     }
     .about-skill{

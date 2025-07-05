@@ -19,6 +19,9 @@ const MyWork = () => {
 						return (
 							<a key={index} href={work.w_url}>
 								<img src={work.w_img} alt='' />
+								<div className='mywork-showmore1'>
+									<p>{work.w_name}</p>
+								</div>
 							</a>
 						);
 					})}

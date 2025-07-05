@@ -3,8 +3,8 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	gap: 80px;
-	margin: 80px 170px;
+	gap: 40px;
+	margin: 50px 170px;
 }
 
 .contact-title {
@@ -13,7 +13,7 @@
 
 .contact-title h1 {
 	padding: 0px 30px;
-	font-size: 80px;
+	font-size: 50px;
 	font-weight: 600;
 }
 .contact-title img {
@@ -25,17 +25,17 @@
 }
 .contact-section {
 	display: flex;
-	gap: 150px;
+	gap: 40px;
 }
 
 .contact-left {
 	display: flex;
 	flex-direction: column;
-	gap: 30px;
+	gap: 40px;
 }
 
 .contact-left h1 {
-	font-size: 80px;
+	font-size: 50px;
 	font-weight: 700;
 	background: linear-gradient(267deg, #da4625 0.36%, #2392e1 102.06%);
 	background-clip: text;
@@ -46,8 +46,8 @@
 .contact-left p{
     max-width: 550px;
     color: #D8D8D8;
-    font: 20px;
-    line-height: 35px;
+    font-size: 20px;
+    line-height: 25px;
 }
 
 .contact-details{
@@ -71,7 +71,7 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 30px;
+    gap: 20px;
 }
 
 .contact-right label{
@@ -83,7 +83,7 @@
 .contact-right input{
     border: none;
     width: 700px;
-    height: 78px;
+    height: 40px;
     padding-left: 20px;
     border-radius: 4px;
     background: #23232c;
@@ -98,7 +98,7 @@
     border-radius: 4px;
     background: #32323c;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .contact-submit{
