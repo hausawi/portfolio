@@ -10,7 +10,7 @@ const Footer = () => {
 					<img src={logo} alt='' />
 					<p>
 						I am a fullstack developer with backend focus from Khartoum, Sudan
-						with 4 years of experience as Freelancer
+						with over 4 years of experience as Freelancer
 					</p>
 				</div>
 				<div className='footer-top-right'>

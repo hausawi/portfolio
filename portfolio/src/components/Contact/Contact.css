@@ -48,6 +48,8 @@
     color: #D8D8D8;
     font-size: 20px;
     line-height: 25px;
+    text-align: justify;
+    text-justify: inter-character;
 }
 
 .contact-details{

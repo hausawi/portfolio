@@ -91,7 +91,11 @@
 	}
 	.footer-top {
 		flex-direction: column;
-		gap: 50px;
+		gap: 40px;
+	}
+	.footer-top-left p{
+		text-align: justify;
+		text-justify: inter-character;
 	}
     .footer-top-right{
         flex-direction: column;

@@ -41,6 +41,11 @@
     font-size: 18px;
     font-weight: 300;
 }
+.about-para p{
+    
+    text-align: justify;
+    text-justify: inter-character;
+}
 
 .about-right{
     display: flex;
@@ -152,7 +157,7 @@
     }
     .about-skill p{
         
-        font-size: 12px;
+        font-size: 18px;
     }
     .about-skill hr{
         height: 6px;
