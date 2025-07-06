@@ -73,7 +73,7 @@
         display: block;
         position: relative;
         top: 30px;
-        left: 290px;
+        left: 190px;
         width: 30px;
     }
     .nav-menu{
@@ -82,16 +82,16 @@
         align-items: start;
         top: 0;
         gap: 30px;
-        background-color:#32323c ;
-        width: 350px;
+        background-color:#2f2f34 ;
+        width: 250px;
         height: 100%;
         z-index: 2;
         transition: right 0.5s;
-        right: -350px;
+        right: -250px;
     }
     .nav-menu li{
-        font-size: 30px;
-        padding-left: 100px;
+        font-size: 28px;
+        padding-left: 50px;
         flex-direction: row;
         gap: 20px;
     }

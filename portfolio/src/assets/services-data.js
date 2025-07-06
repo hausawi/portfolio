@@ -3,6 +3,7 @@ import portfolio from './2.png';
 import lms from './3.png';
 import ecom from './4.png';
 import dash from './5.png';
+import fastapi from './6.png';
 
 const Services_data = [
 	{
@@ -79,8 +80,8 @@ export const mywork_data = [
 	{
 		w_no: 6,
 		w_name: 'Visit online',
-		w_img: Blog,
-		w_url: 'https://lms-sudemy.vercel.app/',
+		w_img: fastapi,
+		w_url: 'https://fast-api-inventory.vercel.app/docs',
 	},
 ];
 
