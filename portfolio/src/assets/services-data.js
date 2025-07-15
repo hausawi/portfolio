@@ -75,7 +75,7 @@ export const mywork_data = [
 		w_no: 5,
 		w_name: 'Visit online',
 		w_img: dash,
-		w_url: 'https://lms-sudemy.vercel.app/',
+		w_url: 'https://admin-dashboard-woad-one-61.vercel.app/',
 	},
 	{
 		w_no: 6,
