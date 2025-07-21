@@ -19,7 +19,11 @@ const Hero = () => {
 						Connect with me
 					</AnchorLink>
 				</div>
-				<div className='hero-resume'>My resume</div>
+				<div className='hero-resume'>
+					<a href='Haider_Hausawi_CV.pdf' download='Haider M. Hausawi CV'>
+						My resume
+					</a>
+				</div>
 			</div>
 		</div>
 	);
